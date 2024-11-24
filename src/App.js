@@ -10,7 +10,14 @@ export default function App() {
           <Dictionary defaultKeyword="dragon" />
         </main>
         <footer className="App-footer">
-          Coded by Charlie G. and hosted on Github.
+          Coded by Charlie G. and hosted on{" "}
+          <a
+            href="https://github.com/charliegood2046/dictionary-project"
+            target="_blank"
+          >
+            Github
+          </a>
+          .
         </footer>
       </div>
     </div>
