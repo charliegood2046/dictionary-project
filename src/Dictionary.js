@@ -13,8 +13,8 @@ export default function Dictionary() {
   }
 
   function search(event) {
+    //alert(`Defining ${keyword}`);
     event.preventDefault();
-    alert(`Defining ${keyword}`);
 
     let apiKey = "f675a384aa40tc5a0420348fddabad0o";
 
